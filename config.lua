@@ -35,6 +35,9 @@ Config.DurabilityMultiplier = {
 	['weapon_bread'] 				 = 0.15,
 	['weapon_stone_hatchet'] 		 = 0.15,
 
+    -- Hunting
+    ['weapon_huntingrifle']           = 0.15,
+
 	-- Handguns
 	['weapon_pistol'] 				 = 0.15,
 	['weapon_pistol_mk2'] 			 = 0.15,
@@ -250,6 +253,17 @@ WeaponAttachments = {
         ['luxuryfinish'] = {
             component = 'COMPONENT_PISTOL50_VARMOD_LUXE',
             item = 'pistol50_luxuryfinish',
+        },
+    },
+    ['weapon_huntingrifle'] = {
+        ['defaultclip'] = {
+            component = 'COMPONENT_SNIPERRIFLE_CLIP_01',
+            item = 'weapon_huntingrifle_mag1',
+        },
+        ['scope'] = {
+            component = 'COMPONENT_AT_SCOPE_LARGE',
+            item = 'w_at_scope_huntingrifle',
+            type = 'scope',
         },
     },
     ['WEAPON_REVOLVER'] = {
